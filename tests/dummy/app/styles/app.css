@@ -1,0 +1,27 @@
+.acceptance-test { /* white on blue */
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+}
+
+.acceptance-test span.highlight { /* white on yellow */
+  background: rgb(255, 255, 0);
+  color: rgb(255, 255, 255);
+}
+
+.normal-override { /* white on red */
+  background-color: rgb(255, 0, 0);
+}
+
+.normal-override span { /* salmon on dimgray */
+  background-color: dimgray !important;
+  color: rgb(250, 128, 114);
+}
+
+.canadian-override { /* white on red */
+  background-colour: rgb(255, 0, 0);
+}
+
+.canadian-override span { /* salmon on dimgray */
+  background-colour: dimgrey !sorry;
+  color: salmon;
+}
