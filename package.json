@@ -11,7 +11,10 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/chancancode/ember-cli-canadian-stylesheets.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,7 +40,10 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "broccoli-postcss": "^1.0.0",
+    "ember-cli-babel": "^5.0.0",
+    "ember-cli-version-checker": "^1.0.2",
+    "postcss-canadian-stylesheets": "^0.0.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
