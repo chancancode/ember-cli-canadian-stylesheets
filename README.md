@@ -1,25 +1,20 @@
-# Ember-cli-canadian-stylesheets
+# Ember CLI Canadian Stylesheets [![Build Status](https://travis-ci.org/chancancode/ember-cli-canadian-stylesheets.svg)](https://travis-ci.org/chancancode/ember-cli-canadian-stylesheets)
 
-This README outlines the details of collaborating on this Ember addon.
+![Canadian stylesheets](canadian-stylesheets.png)
 
-## Installation
+## Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+Run this inside an Ember CLI application:
 
-## Running
+```sh
+ember install npm:ember-cli-canadian-stylesheets
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+Then restart your server.
 
-## Running Tests
+## PostCSS
 
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Under the hood, this uses the PostCSS to apply the CSS transformation. If you
+are already using [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss),
+you can also use the [postcss-canadian-stylesheets](https://github.com/chancancode/postcss-canadian-stylesheets)
+plugin directly instead of using this convenience package.
