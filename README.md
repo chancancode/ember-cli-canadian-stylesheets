@@ -14,7 +14,7 @@ Then restart your server.
 
 ## PostCSS
 
-Under the hood, this uses the PostCSS to apply the CSS transformation. If you
-are already using [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss),
+Under the hood, this uses PostCSS to apply the CSS transformations. If you are
+already using [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss),
 you can also use the [postcss-canadian-stylesheets](https://github.com/chancancode/postcss-canadian-stylesheets)
 plugin directly instead of using this convenience package.
