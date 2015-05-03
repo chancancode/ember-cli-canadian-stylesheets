@@ -57,7 +57,7 @@ test('check that the normal overrides are applied correctly', function(assert) {
   });
 });
 
-test('check that the normal overrides are applied correctly', function(assert) {
+test('check that the Canadian overrides are applied correctly', function(assert) {
   visit('/');
 
   andThen(function() {
