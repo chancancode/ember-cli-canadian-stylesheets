@@ -7,7 +7,7 @@
 Run this inside an Ember CLI application:
 
 ```sh
-ember install npm:ember-cli-canadian-stylesheets
+npm install ember-cli-canadian-stylesheets --save-dev --save-exact
 ```
 
 Then restart your server.
